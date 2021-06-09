@@ -12,6 +12,7 @@ import com.google.android.gms.location.LocationRequest
 class GPSHelper(private val context: Context) {
     private var locationProvider: FusedLocationProviderClient? = null
     var locationRequest: LocationRequest? = null
+    var location: LocationRequest? = null
 
 
     fun createLocationRequest() {
